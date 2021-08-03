@@ -23,6 +23,7 @@ const FileInput = () => {
             nicotine: concentration,
           };
         }
+        return
       });
       console.log(newResults);
       // post newResults
