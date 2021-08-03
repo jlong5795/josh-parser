@@ -110,7 +110,7 @@ const FileInput = () => {
     <button onClick={handleDownload}>Download Cleaned CSV</button>
     <CSVLink data={cleaned}>Download</CSVLink>
 
-    <button onClick={handleRest}>Clear Database</button>
+    <button onClick={handleReset}>Clear Database</button>
     </>
   );
 };
