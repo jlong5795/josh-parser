@@ -108,7 +108,7 @@ const FileInput = () => {
     <button onClick={handleClean}>Clean CSV</button>
     <button onClick={handleRequest}>Request Cleaned CSV</button>
     <button onClick={handleDownload}>Download Cleaned CSV</button>
-    <span onClick={handleReset}><CSVLink data={cleaned}>Download</CSVLink></span>
+    <span><CSVLink data={cleaned}>Download</CSVLink></span>
     </>
   );
 };
